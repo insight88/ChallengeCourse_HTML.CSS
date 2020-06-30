@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    height: 1500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  span {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  
+  .Box {
+    padding-top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  #redBox {
+    background-color: rgb(235, 98, 98);
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .bottomBox{
+      display: inline-block;
+  }
+  
+  #leftBox {
+    background-color: skyblue;
+    height: 1400px;
+    width: 80%;
+    position: relative;
+  }
+  
+  #rightBox {
+    background-color: yellow;
+    border: 5px solid grey;
+    position: absolute;
+    height: 1400px;
+    width: 20%;
+  }
+
+  #greenBox{
+      position: fixed;
+      width: 100px;
+      height: 40px;
+      background-color: greenyellow;
+      z-index: 2;
+      right: 16.5%;
+      top: 80px;
+  }
