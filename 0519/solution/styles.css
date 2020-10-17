@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body {
+    font-family: sans-serif;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+main {
+    background-color: #f8f7ff;
+    height: 660px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    background-color: #fcfcfe;
+    height: 600px;
+    width: 300px;
+    box-shadow: inset 0px 0px 5px #ccd0dc, 10px 10px 10px #ccd0dc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone .phone__screen {
+    background-color: #f8f8f8;
+    height: 570px;
+    width: 260px;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.phone__screen .screen__title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.screen__information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.screen__information input {
+    font-size: 11px;
+    height: 30px;
+}
+
+.screen__information .information__input {
+    border-radius: 7px;
+    border: 1px solid #e1e1ec;
+    margin-top: 24px;
+    height: 35px;
+    width: 230px;
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+.phone__screen .screen__forgot {
+    color: #e2283d;
+    margin-top: 12px;
+    text-align: right;
+}
+
+.phone__screen .screen__remember {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.phone__screen .screen__signin {
+    width: 245px;
+    height: 37px;
+    background-color: #e2283e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 8px;
+}
+
+.phone__screen .screen__or {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.phone__screen .screen__sns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.screen__sns .sns__button {
+    width: 120px;
+    height: 37px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+.screen__sns .facebook {
+    background-color: #475a95;
+}
+
+.screen__sns .twitter {
+    background-color: #5da1f2;
+}
+
+.screen__options {
+    font-size: 11px;
+    padding-left: 7px;
+}
+
+.screen__options .options__needaccount {
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.screen__options .options__question {
+    opacity: 0.5;
+}
+
+.options__button {
+    color: #e2283e;
+    margin-left: 4px;
+}
